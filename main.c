@@ -267,7 +267,8 @@ void interpret(unsigned short instruction)
 int main()
 {
 	//  code
-	char *code = "!+";
+	char *code = "!
+";
 
 	// interpret
 	for (unsigned short instruction = 0; instruction < strlen(code); instruction++)
